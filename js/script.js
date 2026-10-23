@@ -1,24 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
     
-    // 1. نموذج تسجيل الدخول
+    // نموذج تسجيل الدخول
     const loginForm = document.getElementById("loginForm");
     if (loginForm) {
         loginForm.addEventListener("submit", function (event) {
-            event.preventDefault(); // منع إعادة تحميل الصفحة فوراً
+            event.preventDefault();
             alert("تم تسجيل دخولك بنجاح!");
-            window.location.href = "about.html"; // الانتقال لصفحة عن الموقع بعد الضغط على موافق
+            window.location.href = "about.html"; // الانتقال تلقائياً لصفحة عن الموقع
         });
     }
 
-    // 2. نموذج تواصل معنا
+    // نموذج تواصل معنا
     const contactForm = document.getElementById("contactForm");
     if (contactForm) {
         contactForm.addEventListener("submit", function (event) {
-            event.preventDefault(); // منع إعادة تحميل الصفحة فوراً
+            event.preventDefault();
             alert("تم إرسال الرسالة بنجاح!");
-            contactForm.reset(); // تفريغ الخانات بعد الإرسال
+            contactForm.reset(); // تفريغ الحقول بعد الإرسال
         });
     }
 
 });
-

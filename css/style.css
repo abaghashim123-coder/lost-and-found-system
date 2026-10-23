@@ -111,15 +111,3 @@ button, .btn {
 button:hover, .btn:hover {
     background-color: #6b21a8; /* بنفسجي أغمق قليلاً */
 }
-
-/* التذييل (Footer) */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1f2937;
-    color: #9ca3af;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
